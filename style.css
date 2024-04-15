@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(248, 244, 244);
+}
+
+.Section1Heading {
+  font-family: Caveat;
+  font-size: 50px;
+}
+
+.row {
+  text-align: center;
+}
+
+.fs-5 a {
+  text-decoration: none;
+  color: black;
+}
+
+.fs-5 a i {
+  color: brown;
+  font-size: 30px;
+}
+
+.fs-5 a:hover {
+  color: brown;
+}
+
+/* section-2 */
+.list {
+  list-style: none;
+}
+
+.list li i {
+  color: brown;
+}
+.sec2 {
+  background-color: white !important;
+}
+
+.sec2 .container .row .col-12 {
+  position: relative;
+}
+
+.sec2 .container .row .col-12 .para1 {
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  background-color: white;
+  /* padding: 40px 200px; */
+  padding: 5px 10px;
+}
+
+.para1 p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.para1 span {
+  color: red;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.image1 {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.play-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: brown;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transition: 0.2s all linear;
+}
+
+.play-btn:hover {
+  scale: 1.2;
+}
+
+.image1 a i {
+  margin-left: 32px;
+  margin-top: 25px;
+  font-size: 35px;
+  color: white;
+}
+
+/* .image1 a i:hover { */
+
+/* } */
+
+/* section-3  */
+.sec3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.sec3 .container .row .ms-3 {
+  background-color: rgb(167, 17, 17);
+  width: 320px;
+  height: 450px;
+  padding: 40px 40px;
+  color: white;
+  text-align: left;
+}
+
+.para4 {
+  margin-top: 20px;
+}
+
+.sec3Box2 {
+  transition: 0.2s all linear;
+}
+
+.sec3Box2:hover {
+  scale: 1.1;
+}
+
+.sec3Box3 {
+  transition: 0.2s all linear;
+}
+
+.sec3Box3:hover {
+  scale: 1.1;
+}
+
+.sec3Box4 {
+  transition: 0.2s all linear;
+}
+
+.sec3Box4:hover {
+  scale: 1.1;
+}
+
+/* section-4  */
+.box {
+  margin-top: 50px;
+  background-image: url('https://bootstrapmade.com/demo/templates/Yummy/assets/img/stats-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.box-container {
+  /* background-color:rgba(201, 178, 178, 0);
+    color: white;
+    */
+
+  background-color: rgba(0, 0, 0, 0.521);
+  padding: 80px 25px;
+  color: white;
+}
+
+.col13 h3 {
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.col13 h6 {
+  color: rgb(172, 168, 168);
+  padding-bottom: 50px;
+}
+
+/* section-5  */
+.sec5 {
+  margin-top: 90px;
+}
+
+.sec5heading {
+  text-align: center;
+}
+
+/* section-6 */
+.sec6 {
+  background-color: white !important;
+}
+
+.sec6heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* section-7   */
+.sec7 {
+  margin-top: 80px;
+  background-color: white !important;
+}
+
+.sec7heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* section-8  */
+.card {
+  transition: 0.7s all linear;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.card-icons i {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.card-icons {
+  position: absolute;
+  top: 2%;
+  left: 100%;
+  background-color: rgba(204, 200, 200, 0.445);
+  padding: 10px 10px;
+  transition: all 0.5s linear;
+}
+
+.card:hover .card-icons {
+  left: 90%;
+}
+
+/* section-9   */
+.sec9 {
+  margin-top: 50px;
+  background-color: white !important;
+  padding-bottom: 50px;
+}
+
+.sec9heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* section-10  */
+.sec10 {
+  margin-top: 50px;
+  background-color: white !important;
+}
+
+.sec10heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer-font i {
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+/*======================= Media Query=================== */
+
+@media only screen and (min-width: 992px) {
+  .col-lg-8 img {
+    height: 742px;
+    width: 700px;
+    padding-bottom: 10px;
+  }
+
+  .sec2 .container .row .col-12 .para1 {
+    top: 50%;
+    left: 25%;
+    /* padding: 40px 200px; */
+    padding: 10px 80px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .row {
+    text-align: left;
+  }
+}
